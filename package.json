@@ -1,0 +1,16 @@
+{
+  "name": "electron-debugger",
+  "description": "electron debugger",
+  "keywords": "electron chrome debug",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/electron-debugger.git"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "bin": "cli.js",
+  "version": "1.0.0",
+  "license": "MIT"
+}
