@@ -12,5 +12,11 @@
   },
   "bin": "cli.js",
   "version": "1.0.0",
+  "scripts": {
+    "prepublish": "standard"
+  },
+  "devDependencies": {
+    "standard": "^5.3.1"
+  },
   "license": "MIT"
 }
