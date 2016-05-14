@@ -1,10 +1,9 @@
 #!/usr/bin/env electron
 
-var app = require('app')
-var BrowserWindow = require('browser-window')
+var electron = require('electron')
 var path = require('path')
 
-app.on('ready', function () {
-  var mainWindow = new BrowserWindow({show: true})
-  mainWindow.loadUrl('file://' + path.join(__dirname, 'index.html') + '?file=' + (process.argv[2] || ''))
+electron.app.on('ready', function () {
+  var mainWindow = new electron.BrowserWindow({show: true})
+  mainWindow.loadURL('file://' + path.join(__dirname, 'index.html') + '?file=' + (process.argv[2] || ''))
 })
