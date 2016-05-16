@@ -13,7 +13,8 @@
   "bin": "cli.js",
   "version": "2.0.0",
   "scripts": {
-    "prepublish": "standard"
+    "prepublish": "standard",
+    "preversion": "standard"
   },
   "devDependencies": {
     "standard": "^7.0.1"
