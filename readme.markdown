@@ -1,5 +1,7 @@
 # electron-debugger
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/electron-debugger.svg)](https://greenkeeper.io/)
+
 use electron to debug your backend code
 
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
